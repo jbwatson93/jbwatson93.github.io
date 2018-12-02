@@ -31,14 +31,14 @@ color:black;
     align-items: center;
     font-family: 'Cookie', cursive;
     font-size: 1.5em;
-    background: url("images/low-poly-geometric-abstract-white-background-1267.jpg");
-    background-size: cover;
+    background: url("images/kisspng-geometry-desktop-wallpaper-triangle-cool-designs-5abc89f24e5ea2.761541951522305522321.png");
+    background-size: contain;
    
 }
 .intro{
     height: 100vh;
     width: 100%;
-    background: rgb(21, 21, 124);
+    background: rgb(3, 19, 255);
 }
 .projects{
     height: 100vh;
@@ -86,4 +86,109 @@ color:black;
     width: 100%;
     background: url("images/kisspng-black-and-white-pattern-geometric-abstract-perspective-blocks-5a6d3d8c671480.9815642615171086204222.png");
     background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+#intro{
+    height: 100vh;
+    width: 100%;
+    background: url("images/kisspng-black-and-white-pattern-geometric-abstract-perspective-blocks-5a6d3d8c671480.9815642615171086204222.png");
+    background-size: cover;
+}
+
+#triangle{
+    height: 100vh;
+    width: 100%;
+    background: url("images/kisspng-triangle-polygon-mesh-vector-triangle-background-5a87b404122b74.3378524415188428840744.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center
+
+}
+.introtext{
+    width: 70%;
+    font-size: 2.5em;
+    font-family: 'Jockey One', sans-serif;
+   
+}
+span{
+    color:white;
+    text-shadow: 2px 2px 2px black
+    
+}
+
+.apps{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center
+}
+.button{
+   height: 200px;
+   width: 200px;
+    background: rgb(124, 21, 21);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 50px;
+    font-family: 'Jockey One', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+text-align: center;
+}
+
+a:hover {
+    transform: scale(1.2)
+}
+.skillstext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 2em;
+}
+#skillsh1{
+    font-family: 'Cookie', cursive;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 0;
+}
+#projtitle{
+    font-family: 'Cookie', cursive;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 0;
+}
+#exph1{
+    font-family: 'Cookie', cursive;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 0;
+}
+#exptable{
+    border: solid;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 2em;
+
+}
+td{
+    border: solid;
+    margin: 4px;
+}
+#eduh1{
+    font-family: 'Cookie', cursive;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 0;
+}
+#table2{
+    border: solid;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 2em;
+
 }
